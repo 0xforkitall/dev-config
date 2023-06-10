@@ -6,6 +6,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:prettier/recommended',
     ],
+    parser: '@typescript-eslint/parser',
     rules: {
         '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
@@ -24,9 +25,5 @@ module.exports = {
         'react/self-closing-comp': 'warn',
         'prefer-template': 'warn',
         'no-useless-concat': 'warn',
-    },
-    parserOptions: {
-        project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
-    },
+    }
 };
