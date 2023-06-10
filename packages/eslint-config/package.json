@@ -2,27 +2,35 @@
   "name": "@0xforkitall/eslint-config",
   "version": "0.1.1",
   "description": "Shared Eslint config",
-  "files": ["config-base.js", "config-nextjs.js"],
+  "files": [
+    "config-base.js",
+    "config-nextjs.js"
+  ],
   "license": "MIT",
   "scripts": {
     "publish": "yarn publish --access public"
   },
   "dependencies": {
+    "eslint-config-next": "^13.4.4",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
     "eslint": ">= 8",
-    "next": ">= 13",
     "prettier": ">= 2"
   },
-  "keywords": ["eslint", "eslintconfig", "0xforkitall"],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "0xforkitall"
+  ],
   "homepage": "https://0xforkitall.com",
-	"author": {
-		"name": "0xforkitall",
-		"email": "0xforkitall@gmail.com",
-		"url": "https://0xforkitall.com"
-	},
+  "author": {
+    "name": "0xforkitall",
+    "email": "0xforkitall@gmail.com",
+    "url": "https://0xforkitall.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/0xforkitall/dev-config.git",

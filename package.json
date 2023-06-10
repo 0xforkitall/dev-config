@@ -4,6 +4,7 @@
   "license": "MIT",
   "keywords": ["eslint", "eslintconfig", "0xforkitall"],
   "homepage": "https://0xforkitall.com",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
