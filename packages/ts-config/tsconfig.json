@@ -16,7 +16,5 @@
     "jsx": "preserve",
     "incremental": true,
     "downlevelIteration": true
-  },
-  "include": ["src", ".eslintrc.js", "**/*.config.js", "public/*.js"],
-  "exclude": ["node_modules"]
+  }
 }
