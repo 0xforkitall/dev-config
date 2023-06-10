@@ -1,6 +1,6 @@
 {
   "name": "@0xforkitall/eslint-config",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Shared Eslint config",
   "main": "index.js",
   "license": "MIT",
@@ -10,9 +10,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
     "@typescript-eslint/parser": ">= 5",
-    "eslint": ">= 8",
-    "eslint-plugin-prettier": ">= 4",
-    "prettier": ">= 2"
+    "eslint": ">= 8"
   },
   "keywords": [
     "eslint",
