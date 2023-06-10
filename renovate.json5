@@ -1,0 +1,13 @@
+{
+  extends: ["config:base"],
+  postUpdateOptions: ["yarnDedupeFewer"],
+  packageRules: [
+    {
+      matchUpdateTypes: ["minor", "patch"],
+      matchCurrentVersion: "!/^0/",
+      groupName: "minor and patch dependencies",
+      automerge: false,
+      schedule: ["on monday"],
+    }
+  ]
+}
