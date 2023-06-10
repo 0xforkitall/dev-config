@@ -1,17 +1,20 @@
 {
   "name": "@0xforkitall/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared Eslint config",
   "files": ["config-base.js", "config-nextjs.js"],
   "license": "MIT",
+  "scripts": {
+    "publish": "yarn publish --access public"
+  },
+  "dependencies": {
+    "eslint-plugin-prettier": "^4.2.1"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 5",
     "eslint": ">= 8",
     "next": ">= 13",
     "prettier": ">= 2"
-  },
-  "devDependencies": {
-    "eslint-plugin-prettier": "^4.2.1"
   },
   "keywords": ["eslint", "eslintconfig", "0xforkitall"],
   "homepage": "https://0xforkitall.com",
