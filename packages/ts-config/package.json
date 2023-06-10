@@ -1,0 +1,19 @@
+{
+  "name": "@0xforkitall/ts-config",
+  "version": "0.1.0",
+  "description": "Shared TypeScript config",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "keywords": ["typescript", "tsconfig", "0xforkitall"],
+  "homepage": "https://0xforkitall.com",
+	"author": {
+		"name": "0xforkitall",
+		"email": "0xforkitall@gmail.com",
+		"url": "https://0xforkitall.com"
+	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xforkitall/dev-config.git",
+    "directory": "packages/ts-config"
+  }
+}
