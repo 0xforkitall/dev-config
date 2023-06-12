@@ -1,12 +1,16 @@
 {
   "name": "@0xforkitall/dev-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared LintStaged, Prettier and TypeScript configurations",
-  "files": ["*-config.js", "tsconfig.json"],
+  "files": [
+    "*-config.js",
+    "tsconfig.json"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "lint-staged": ">= 13",
-    "prettier": ">= 2"
+    "prettier": ">= 2",
+    "prettier-plugin-organize-imports": ">= 3"
   },
   "keywords": [
     "lintstaged",
