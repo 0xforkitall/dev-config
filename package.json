@@ -2,17 +2,10 @@
   "name": "@0xforkitall/dev-config",
   "description": "Shared config for development",
   "license": "MIT",
-  "keywords": ["eslint", "eslintconfig", "0xforkitall"],
-  "homepage": "https://0xforkitall.com",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-	"author": {
-		"name": "0xforkitall",
-		"email": "0xforkitall@gmail.com",
-		"url": "https://0xforkitall.com"
-	},
   "engines": {
     "node": "^18.12.0",
     "npm": "please-use-yarn"

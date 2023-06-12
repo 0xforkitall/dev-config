@@ -1,15 +1,20 @@
 {
-  "name": "@0xforkitall/lintstaged-config",
-  "version": "0.1.0",
-  "description": "Shared LintStaged config",
-  "main": "index.js",
+  "name": "@0xforkitall/dev-config",
+  "version": "0.1.1",
+  "description": "Shared LintStaged, Prettier and TypeScript configurations",
+  "files": ["*-config.js", "tsconfig.json"],
   "license": "MIT",
   "peerDependencies": {
-    "lint-staged": ">= 13"
+    "lint-staged": ">= 13",
+    "prettier": ">= 2"
   },
   "keywords": [
     "lintstaged",
     "lintstagedconfig",
+    "prettier",
+    "prettierconfig",
+    "typescript",
+    "tsconfig",
     "0xforkitall"
   ],
   "homepage": "https://0xforkitall.com",
@@ -21,6 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/0xforkitall/dev-config.git",
-    "directory": "packages/lintstaged-config"
+    "directory": "packages/dev-config"
   }
 }
