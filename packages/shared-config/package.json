@@ -1,7 +1,7 @@
 {
-  "name": "@0xforkitall/dev-config",
-  "version": "0.1.2",
-  "description": "Shared LintStaged, Prettier and TypeScript configurations",
+  "name": "@0xforkitall/shared-config",
+  "version": "0.1.0",
+  "description": "LintStaged, Prettier and TypeScript configurations files",
   "files": [
     "*-config.js",
     "tsconfig.json"
@@ -30,6 +30,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/0xforkitall/dev-config.git",
-    "directory": "packages/dev-config"
+    "directory": "packages/shared-config"
   }
 }
