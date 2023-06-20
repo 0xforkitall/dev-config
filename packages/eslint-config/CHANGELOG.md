@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.7 (2023-06-20)
+
+
+### Bug Fixes
+
+* **root:** Fix registry setup ([138ab18](https://github.com/0xforkitall/dev-config/commit/138ab18f2d3910879db48feac3a9aa29b2966a25))
+
+
+
+
+
 ## 0.2.6 (2023-06-20)
 
 
