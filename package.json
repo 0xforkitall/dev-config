@@ -12,7 +12,7 @@
   },
   "scripts": {
     "version:ci": "lerna version --conventional-commits --create-release github --yes",
-    "publish:ce": "lerna publish from-package --yes"
+    "publish:ci": "lerna publish from-package --yes"
   },
   "dependencies": {},
   "devDependencies": {
