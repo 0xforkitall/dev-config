@@ -1,6 +1,6 @@
 {
   "name": "@0xforkitall/shared-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "LintStaged, Prettier and TypeScript configurations files",
   "files": [
     "*-config.js",
