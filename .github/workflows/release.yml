@@ -1,0 +1,33 @@
+name: Release
+
+on:
+  workflow_dispatch: {}
+
+env:
+  NODE_VERSION: 18
+  NODE_CACHE: "yarn"
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.5.3
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: ${{ env.NODE_CACHE }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Config git user
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+      - name: Bump versions and publish packages
+        run: |
+          yarn version:ci
+          yarn publish:ci
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

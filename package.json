@@ -11,8 +11,8 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "versionup": "lerna version --conventional-commits --create-release github --yes",
-    "release": "lerna publish from-package --yes"
+    "version:ci": "lerna version --conventional-commits --create-release github --yes",
+    "publish:ce": "lerna publish from-package --yes"
   },
   "dependencies": {},
   "devDependencies": {
