@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.2 (2023-06-20)
+
+
+### Bug Fixes
+
+* **root:** Setup personal ci token ([86fbafd](https://github.com/0xforkitall/dev-config/commit/86fbafde69b5c8b9f932702c11921fa834866e97))
+
+
+
+
+
 ## [0.2.1](https://github.com/0xforkitall/dev-config/compare/@0xforkitall/eslint-config@0.2.0...@0xforkitall/eslint-config@0.2.1) (2023-06-20)
 
 
