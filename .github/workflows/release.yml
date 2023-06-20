@@ -14,9 +14,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3.5.3
-        with:
-          persist-credentials: false
-
       - uses: actions/setup-node@v3.6.0
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -24,11 +21,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Config git user
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GIT_CI_TOKEN }}@github.com/${{ github.repository }}
       - name: Bump versions and publish packages
         run: |
           yarn version:ci
