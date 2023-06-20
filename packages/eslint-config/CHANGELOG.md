@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.6 (2023-06-20)
+
+
+### Bug Fixes
+
+* **root:** Correctly set node-auth token ([555f084](https://github.com/0xforkitall/dev-config/commit/555f0840c551829e6334865fb5edbd49ec0a5e49))
+
+
+
+
+
 ## 0.2.5 (2023-06-20)
 
 **Note:** Version bump only for package @0xforkitall/eslint-config
