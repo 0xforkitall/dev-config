@@ -10,6 +10,10 @@
     "node": "^18.12.0",
     "npm": "please-use-yarn"
   },
+  "scripts": {
+    "versionup": "lerna version --conventional-commits --create-release github --yes --no-push",
+    "release": "lerna publish from-package --yes"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^7.0.2"
