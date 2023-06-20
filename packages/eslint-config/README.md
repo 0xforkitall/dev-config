@@ -10,7 +10,6 @@ Use npm or yarn to install the package:
 yarn add --dev @0xforkitall/eslint-config
 ```
 
-
 ## Usage
 
 Extends the ESLint configurations on a `.eslintrc.js` file:
