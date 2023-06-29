@@ -1914,7 +1914,7 @@ kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-lerna@^7.0.2:
+lerna@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-7.1.0.tgz#68855362c8a18f2c9ce14c01793076d2f7aea7c0"
   integrity sha512-fY1EctsuP21eR7F9zmnqcdtBRkzvsoAOVYzjrtQQXYt9hlyA14RvjQJIF7R54t+T60As7kFYNgw2PHsC3orV2w==
