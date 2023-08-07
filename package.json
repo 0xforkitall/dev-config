@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "version:ci": "lerna version --conventional-commits --create-release github --yes --loglevel silly",
-    "publish:ci": "lerna publish from-package --yes --loglevel silly"
+    "publish:ci": "lerna publish from-package --yes --loglevel silly --access public"
   },
   "devDependencies": {
     "lerna": "7.1.4"
