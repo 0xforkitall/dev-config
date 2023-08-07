@@ -7,10 +7,12 @@
     "tsconfig.json"
   ],
   "license": "MIT",
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^3.2.2"
+  },
   "peerDependencies": {
     "lint-staged": ">= 13",
-    "prettier": ">= 2",
-    "prettier-plugin-organize-imports": ">= 3"
+    "prettier": ">= 2"
   },
   "keywords": [
     "lintstaged",
