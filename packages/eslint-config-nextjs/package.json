@@ -1,11 +1,11 @@
 {
   "name": "@0xforkitall/eslint-config-nextjs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Shared Eslint config for Next.js projects",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@0xforkitall/eslint-config": "^0.2.11",
+    "@0xforkitall/eslint-config": "^0.2.12",
     "@next/eslint-plugin-next": "^13.4.12"
   },
   "peerDependencies": {
