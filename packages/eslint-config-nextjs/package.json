@@ -17,6 +17,9 @@
     "nextjs",
     "0xforkitall"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://www.0xforkitall.com",
   "author": {
     "name": "0xforkitall",
