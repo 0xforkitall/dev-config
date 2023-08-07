@@ -1,6 +1,6 @@
 # @0xforkitall/eslint-config
 
-This repository contains the shared configurations files for [ESLint](https://github.com/eslint/eslint).
+This repository contains the shared [ESLint](https://github.com/eslint/eslint) configurations files for TypeScript projects.
 
 ## Installation
 
