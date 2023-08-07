@@ -4,8 +4,9 @@ Repository to collect ESLint, TypeScript and other configuration files.
 
 ## Packages
 
-- [@0xforkitall/shared-config](packages/shared-config/README.md): TypeScript, Prettier and other configuration files;
-- [@0xforkitall/eslint-config](packages/eslint-config/README.md): ESLint configuration file;
+-   [@0xforkitall/shared-config](packages/shared-config/README.md): TypeScript, Prettier and other configuration files;
+-   [@0xforkitall/eslint-config](packages/eslint-config/README.md): ESLint configuration file for React projects;
+-   [@0xforkitall/eslint-config-nextjs](packages/eslint-config-nextjs/README.md): ESLint configuration file for NextJs projects;
 
 ## Renovate
 
