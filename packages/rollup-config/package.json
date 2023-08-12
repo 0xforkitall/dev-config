@@ -1,0 +1,34 @@
+{
+  "name": "@0xforkitall/rollup-config",
+  "version": "0.0.1",
+  "description": "Shared Rollup config for building TypeScript libraries",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.28.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-visualizer": "^5.9.2"
+  },
+  "keywords": [
+    "rollup",
+    "rollupconfig",
+    "typescript",
+    "0xforkitall"
+  ],
+  "homepage": "https://www.0xforkitall.com",
+  "author": {
+    "name": "0xforkitall",
+    "email": "0xforkitall@gmail.com",
+    "url": "https://www.0xforkitall.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xforkitall/dev-config.git",
+    "directory": "packages/rollup-config"
+  }
+}
