@@ -49,7 +49,9 @@ jobs:
         run: yarn prettify
       - name: Check changelog
         if: github.ref != 'refs/heads/main' && github.head_ref != 'changeset-release/main'
-        run: yarn changelog
+        run: |
+          git pull -f origin main:main
+          yarn changelog
 
   release:
     needs: test
