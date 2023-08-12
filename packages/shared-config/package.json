@@ -14,9 +14,6 @@
     "lint-staged": ">= 13",
     "prettier": ">= 2"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "lintstaged",
     "lintstagedconfig",
