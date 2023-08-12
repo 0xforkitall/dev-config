@@ -1,5 +1,11 @@
 # @0xforkitall/shared-config
 
+## 1.0.2
+
+### Patch Changes
+
+-   [`2d68799`](https://github.com/0xforkitall/dev-config/commit/2d68799622c89fb7deb6531845e186125f723d94) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Fix github workflow authorization settings
+
 ## 1.0.1
 
 ### Patch Changes
