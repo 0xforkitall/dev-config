@@ -1,18 +1,58 @@
 name: Release
 
 on:
+  pull_request:
   push:
     branches:
       - main
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 env:
   NODE_VERSION: 18
   NODE_CACHE: "yarn"
 
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.5.3
+      - name: Setup Node
+        uses: actions/setup-node@v3.7.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: ${{ env.NODE_CACHE }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+  test:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3.5.3
+      - name: Setup Node
+        uses: actions/setup-node@v3.7.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: ${{ env.NODE_CACHE }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Check eslint
+        run: yarn lint
+      - name: Check prettier
+        run: yarn prettify
+      - name: Check changelog
+        if: github.ref != 'refs/heads/main'
+        run: yarn changelog
+
   release:
     name: Release
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3.5.3
