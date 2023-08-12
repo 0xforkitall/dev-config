@@ -24,8 +24,8 @@ const buildConfigs = (config) => {
         analyze = process.env.ANALYZE === 'true',
     } = config ?? {};
 
-    const packageFile = require(path.join(__dirname, packagePath));
-    const tsConfigFile = require(path.join(__dirname, tsConfigPath));
+    const packageFile = require(path.join(process.cwd(), packagePath));
+    const tsConfigFile = require(path.join(process.cwd(), tsConfigPath));
 
     const { outDir = 'dist' } = tsConfigFile.compilerOptions;
 
