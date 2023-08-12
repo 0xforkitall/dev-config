@@ -1,6 +1,6 @@
 {
   "name": "@0xforkitall/eslint-config",
-  "version": "0.2.13",
+  "version": "1.0.0",
   "description": "Shared Eslint config for TypeScript projects",
   "main": "index.js",
   "license": "MIT",
