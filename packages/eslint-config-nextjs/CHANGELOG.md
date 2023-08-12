@@ -1,5 +1,14 @@
 # @0xforkitall/eslint-config-nextjs
 
+## 1.0.2
+
+### Patch Changes
+
+-   [`2d68799`](https://github.com/0xforkitall/dev-config/commit/2d68799622c89fb7deb6531845e186125f723d94) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Fix github workflow authorization settings
+
+-   Updated dependencies [[`2d68799`](https://github.com/0xforkitall/dev-config/commit/2d68799622c89fb7deb6531845e186125f723d94)]:
+    -   @0xforkitall/eslint-config@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
