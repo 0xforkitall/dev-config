@@ -12,7 +12,7 @@
     "lint:fix": "eslint . --fix",
     "prettify": "prettier . --check",
     "prettify:fix": "prettier . --write",
-    "changelog": "yarn changeset status --since=main",
+    "changelog": "yarn changeset status --since origin/main",
     "changelog:add": "yarn changeset",
     "release": "changeset publish"
   },
