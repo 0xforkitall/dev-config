@@ -12,6 +12,8 @@
     "lint:fix": "eslint . --fix",
     "prettify": "prettier . --check",
     "prettify:fix": "prettier . --write",
+    "changelog": "yarn changeset status --since=main",
+    "changelog:add": "yarn changeset",
     "release": "changeset publish"
   },
   "devDependencies": {
