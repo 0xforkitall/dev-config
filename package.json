@@ -7,11 +7,20 @@
     "packages/*"
   ],
   "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "prettify": "prettier . --check",
+    "prettify:fix": "prettier . --write",
     "version:ci": "lerna version --conventional-commits --create-release github --yes --loglevel silly",
-    "publish:ci": "lerna publish from-package --yes --loglevel silly"
+    "publish:ci": "lerna publish from-package --yes --loglevel silly",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "lerna": "7.1.4"
+    "lerna": "7.1.4",
+    "eslint": "8.46.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.3",
+    "prettier": "3.0.1"
   },
   "engines": {
     "node": "^18.12.0",
