@@ -46,7 +46,7 @@ jobs:
       - name: Check prettier
         run: yarn prettify
       - name: Check changelog
-        if: github.ref != 'refs/heads/main'
+        if: github.ref != 'refs/heads/main' && github.head_ref != 'changeset-release/main'
         run: yarn changelog
 
   release:
