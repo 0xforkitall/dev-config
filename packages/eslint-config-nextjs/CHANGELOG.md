@@ -1,5 +1,14 @@
 # @0xforkitall/eslint-config-nextjs
 
+## 1.0.1
+
+### Patch Changes
+
+-   [`63b4cef`](https://github.com/0xforkitall/dev-config/commit/63b4cef0418f7876f795401673cf9ac4a018e710) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Remove publish configs
+
+-   Updated dependencies [[`63b4cef`](https://github.com/0xforkitall/dev-config/commit/63b4cef0418f7876f795401673cf9ac4a018e710)]:
+    -   @0xforkitall/eslint-config@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
