@@ -55,6 +55,7 @@ const buildConfigs = (config) => {
                     declaration: true,
                     emitDeclarationOnly: true,
                     declarationDir: `${outDir}/types`,
+                    jsx: 'react-jsx',
                     outDir,
                 },
                 exclude: ['**/*.spec.tsx', '**/*.spec.ts', '**/*.test.tsx', '**/*.test.ts', '**/*.stories.tsx'],
