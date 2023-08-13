@@ -23,6 +23,7 @@ const rules = {
     'react/self-closing-comp': 'warn',
     'react/prop-types': 'off',
     'react/no-unknown-property': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
 };
 
