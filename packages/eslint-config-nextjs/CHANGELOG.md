@@ -1,5 +1,16 @@
 # @0xforkitall/eslint-config-nextjs
 
+## 1.1.0
+
+### Minor Changes
+
+-   [`b625c03`](https://github.com/0xforkitall/dev-config/commit/b625c03054254ab6ca20e23404ff578317d9c64a) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Disable react-in-jsx-scope eslint rule on eslint-config package
+
+### Patch Changes
+
+-   Updated dependencies [[`b625c03`](https://github.com/0xforkitall/dev-config/commit/b625c03054254ab6ca20e23404ff578317d9c64a)]:
+    -   @0xforkitall/eslint-config@1.1.0
+
 ## 1.0.2
 
 ### Patch Changes
