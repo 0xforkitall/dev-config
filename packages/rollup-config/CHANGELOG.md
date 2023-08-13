@@ -1,5 +1,11 @@
 # @0xforkitall/rollup-config
 
+## 0.1.2
+
+### Patch Changes
+
+-   [`d6d8f37`](https://github.com/0xforkitall/dev-config/commit/d6d8f3715747acfd527d2e366b1d93029cc539fd) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Fix jsx config for React components
+
 ## 0.1.1
 
 ### Patch Changes
