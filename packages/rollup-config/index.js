@@ -7,6 +7,8 @@ const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const commonjs = require('@rollup/plugin-commonjs');
 const typescript = require('@rollup/plugin-typescript');
 const images = require('@rollup/plugin-image');
+const preserveDirectives = require('rollup-plugin-preserve-directives').default;
+const svgr = require('@svgr/rollup');
 const terser = require('@rollup/plugin-terser');
 
 /**
@@ -43,12 +45,21 @@ const buildConfigs = (config) => {
             sourcemap: true,
             interop: 'auto',
             plugins: [analyze ? visualizer({ filename: `stats.${format}.html`, open: true }) : undefined],
+            preserveModules: true,
+            preserveModulesRoot: 'src',
         })),
-        external: Object.keys(packageFile.dependencies),
+        external: [...Object.keys(packageFile.dependencies), /node_modules/],
         plugins: [
+            // Cleaup dist folder
             cleanup({ targets: `${outDir}/*` }),
+
+            // Resolve eventual 3rd-party dependency skipping the ones listed as externals
             nodeResolve(),
+
+            // Convert 3rd-party CommonJs modules to ES6
             commonjs(),
+
+            // Emits types
             typescript({
                 compilerOptions: {
                     noEmit: false,
@@ -60,8 +71,20 @@ const buildConfigs = (config) => {
                 },
                 exclude: ['**/*.spec.tsx', '**/*.spec.ts', '**/*.test.tsx', '**/*.test.ts', '**/*.stories.tsx'],
             }),
-            images({ include: ['**/*.png', '**/*.jpg', '**/*.svg'] }),
-            terser(),
+
+            // Bundle images
+            images({ include: ['**/*.png', '**/*.jpg'] }),
+
+            // Export svgs as React components
+            svgr(),
+
+            // Preserve 'use client' directives as removed by default by Rollup
+            preserveDirectives(),
+
+            // Minify bundle
+            terser({
+                compress: { directives: false },
+            }),
         ],
         onwarn: (warning, warn) => {
             const { code, message } = warning;
