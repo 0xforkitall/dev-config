@@ -1,5 +1,11 @@
 # @0xforkitall/rollup-config
 
+## 0.2.1
+
+### Patch Changes
+
+-   [`5f091f5`](https://github.com/0xforkitall/dev-config/commit/5f091f50104f6c081a751f54bec09c5ee50d7060) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Fix Rollup configuration for external packages
+
 ## 0.2.0
 
 ### Minor Changes
