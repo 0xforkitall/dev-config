@@ -1,5 +1,17 @@
 # @0xforkitall/shared-config
 
+## 1.1.0
+
+### Minor Changes
+
+-   [`e9e9014`](https://github.com/0xforkitall/dev-config/commit/e9e9014c8dbb89fc0a51b2ac09935b13eb578a8e) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Update compiler target to use ES6
+
+### Patch Changes
+
+-   [#19](https://github.com/0xforkitall/dev-config/pull/19) [`d9a5120`](https://github.com/0xforkitall/dev-config/commit/d9a5120185e6099ea2abbd844f7d0038831f269c) Thanks [@renovate](https://github.com/apps/renovate)! - Update minor and patch dependencies
+
+-   [#18](https://github.com/0xforkitall/dev-config/pull/18) [`fdf5ea4`](https://github.com/0xforkitall/dev-config/commit/fdf5ea45efb0d4207c31adac39c8318ac94a5643) Thanks [@renovate](https://github.com/apps/renovate)! - Update root dependency lint-staged to v14
+
 ## 1.0.2
 
 ### Patch Changes

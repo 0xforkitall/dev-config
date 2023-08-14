@@ -1,6 +1,6 @@
 {
   "name": "@0xforkitall/rollup-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Shared Rollup config for building TypeScript libraries",
   "main": "index.js",
   "license": "MIT",
