@@ -20,13 +20,8 @@ const terser = require('@rollup/plugin-terser');
  * @returns {import('rollup').RollupOptions} Rollup configuration options.
  */
 const buildConfigs = (config) => {
-    const {
-        packagePath = './package.json',
-        tsConfigPath = './tsconfig.json',
-        analyze = process.env.ANALYZE === 'true',
-    } = config ?? {};
+    const { tsConfigPath = './tsconfig.json', analyze = process.env.ANALYZE === 'true' } = config ?? {};
 
-    const packageFile = require(path.join(process.cwd(), packagePath));
     const tsConfigFile = require(path.join(process.cwd(), tsConfigPath));
 
     const { outDir = 'dist' } = tsConfigFile.compilerOptions;
@@ -48,7 +43,7 @@ const buildConfigs = (config) => {
             preserveModules: true,
             preserveModulesRoot: 'src',
         })),
-        external: [...Object.keys(packageFile.dependencies), /node_modules/],
+        external: (id) => !id.startsWith('.') && !id.startsWith('/') && !id.startsWith('\0'),
         plugins: [
             // Cleaup dist folder
             cleanup({ targets: `${outDir}/*` }),
