@@ -1,5 +1,11 @@
 # @0xforkitall/rollup-config
 
+## 0.2.2
+
+### Patch Changes
+
+-   [`96b2d9f`](https://github.com/0xforkitall/dev-config/commit/96b2d9ffba6ca8c7bf1a030ee1e6bd341578db86) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Fix Rollup entry file
+
 ## 0.2.1
 
 ### Patch Changes
