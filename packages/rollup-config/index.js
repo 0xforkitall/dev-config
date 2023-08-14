@@ -31,7 +31,7 @@ const buildConfigs = (config) => {
     /** @type {import('rollup').RollupOptions} */
     const configs = {
         input: {
-            index: 'src/index.ts',
+            index: './src/index.ts',
         },
         output: outputFormats.map((format) => ({
             format,
