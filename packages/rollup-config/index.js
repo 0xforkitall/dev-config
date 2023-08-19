@@ -23,8 +23,7 @@ const buildConfigs = (config) => {
     const { tsConfigPath = './tsconfig.json', analyze = process.env.ANALYZE === 'true' } = config ?? {};
 
     const tsConfigFile = require(path.join(process.cwd(), tsConfigPath));
-
-    const { outDir = 'dist' } = tsConfigFile.compilerOptions;
+    const { outDir = 'dist' } = tsConfigFile.compilerOptions ?? {};
 
     const outputFormats = ['es', 'cjs'];
 
