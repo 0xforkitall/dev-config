@@ -1,5 +1,15 @@
 # @0xforkitall/shared-config
 
+## 1.2.0
+
+### Minor Changes
+
+-   [#27](https://github.com/0xforkitall/dev-config/pull/27) [`5674a17`](https://github.com/0xforkitall/dev-config/commit/5674a179402f518ee5fa227de9d2ae76b7cc1ec2) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency prettier to v3 on package.json file
+
+-   [#26](https://github.com/0xforkitall/dev-config/pull/26) [`3f78bb3`](https://github.com/0xforkitall/dev-config/commit/3f78bb3aa62f769695a7f654d778cce0bcbdee23) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency lint-staged to v14 on package.json file
+
+-   [#24](https://github.com/0xforkitall/dev-config/pull/24) [`7523249`](https://github.com/0xforkitall/dev-config/commit/75232492c6ef2a3853e2e716cd959c47e008cecc) Thanks [@renovate](https://github.com/apps/renovate)! - Update minor and patch dependencies
+
 ## 1.1.0
 
 ### Minor Changes
