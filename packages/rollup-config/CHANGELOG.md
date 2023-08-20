@@ -1,5 +1,15 @@
 # @0xforkitall/rollup-config
 
+## 0.3.0
+
+### Minor Changes
+
+-   [#24](https://github.com/0xforkitall/dev-config/pull/24) [`7523249`](https://github.com/0xforkitall/dev-config/commit/75232492c6ef2a3853e2e716cd959c47e008cecc) Thanks [@renovate](https://github.com/apps/renovate)! - Update minor and patch dependencies
+
+### Patch Changes
+
+-   [`5557a8c`](https://github.com/0xforkitall/dev-config/commit/5557a8cca31d5af29b274a3f6234625fea3be418) Thanks [@0xforkitall](https://github.com/0xforkitall)! - Handle empty compilerOptions config on tsconfig file
+
 ## 0.2.2
 
 ### Patch Changes
