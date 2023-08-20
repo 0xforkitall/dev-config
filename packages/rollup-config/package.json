@@ -7,10 +7,10 @@
   "dependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-image": "^3.0.2",
-    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.0",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
-    "@svgr/rollup": "^8.0.1",
+    "@svgr/rollup": "^8.1.0",
     "rollup": "^3.28.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-preserve-directives": "^0.2.0",

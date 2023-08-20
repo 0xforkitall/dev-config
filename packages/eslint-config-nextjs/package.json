@@ -6,10 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "@0xforkitall/eslint-config": "^1.2.0",
-    "@next/eslint-plugin-next": "^13.4.12"
+    "@next/eslint-plugin-next": "^13.4.19"
   },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "eslint": ">= 8.47.0"
   },
   "keywords": [
     "eslint",
