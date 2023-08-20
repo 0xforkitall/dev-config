@@ -10,5 +10,9 @@
       automerge: false,
       schedule: ["on monday"],
     },
+    {
+      packageNames: ["node"],
+      enabled: false,
+    },
   ],
 }
