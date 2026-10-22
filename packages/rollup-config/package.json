@@ -13,7 +13,7 @@
     "@svgr/rollup": "^8.1.0",
     "rollup": "^3.28.0",
     "rollup-plugin-delete": "^2.0.0",
-    "rollup-plugin-preserve-directives": "^0.2.0",
+    "rollup-plugin-preserve-directives": "^0.4.0",
     "rollup-plugin-visualizer": "^5.9.2"
   },
   "keywords": [
